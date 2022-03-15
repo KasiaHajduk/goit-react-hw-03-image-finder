@@ -6,7 +6,7 @@ import Button from './Button';
 import Loader from './Loader';
 import styled from '@emotion/styled';
 import Modal from './Modal.js';
-import PropTypes from 'prop-types';
+
 
 const initialState = {
   page: 1,
@@ -34,7 +34,6 @@ const ImagesUl = styled.ul({
   rowGap: '20px',
   columnGap: '20px',
   listStyle: 'none',
-  justifyContent: 'center',
 });
 
 const ImageLoader = styled.div({
