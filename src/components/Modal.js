@@ -22,7 +22,7 @@ function Modal({ largeUrl, onClick }) {
   return (
     <Overlay onClick={onClick}>
       <ImageModal>
-        <img src={largeUrl} alt='large image' onClick={event => event.stopPropagation()}/>
+        <img src={largeUrl} alt='large' onClick={event => event.stopPropagation()}/>
       </ImageModal>
     </Overlay>
   );
