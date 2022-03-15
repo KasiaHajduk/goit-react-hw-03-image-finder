@@ -29,7 +29,7 @@ const ImagesUl = styled.ul({
   display: 'flex',
   flexDirection: 'row',
   flexWrap: 'wrap',
-  justifyContent: 'space-between',
+  justifyContent: 'center',
   padding: '0px 20px',
   rowGap: '20px',
   columnGap: '20px',
